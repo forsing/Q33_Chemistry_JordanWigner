@@ -77,7 +77,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -552,7 +552,7 @@ BEST v2 hparam: t_hop= 0.25 | cos(bias, freq_csv)= 0.445721
   t_hop=1.00  cos=0.444256  NEXT=(8, 23, 26, 32, 35, 37, 39)  conf=[0.0366, 0.0444, 0.0923, 0.1101, 0.2080, 0.3673, 0.5033]
   t_hop=2.00  cos=0.444256  NEXT=(8, 23, 26, 32, 35, 37, 39)  conf=[0.0365, 0.0442, 0.0920, 0.1097, 0.2080, 0.3630, 0.5016]
 --- glavna predikcija v2 (per-poziciju 6-qubit ground state, autoregresivno) ---
-predikcija NEXT: (8, 23, 26, 32, 34, 35, 37)
+predikcija NEXT: (8, 23, x, y, z, 35, 37)
   po-pozicijski confidence (max prob): [0.037235, 0.045298, 0.094093, 0.112193, 0.215058, 0.277006, 0.27788]
 """
 
@@ -685,7 +685,7 @@ Per-pozicijski Hermitijan h_i (64x64): dijagonala = -freq (orbital energy), off-
 Rezultat testa (4600 redova, CSV, seed=39):
 
 BEST: t_hop=0.25, cos(bias, freq_csv) = 0.445721
-NEXT = (8, 23, 26, 32, 34, 35, 37)
+NEXT = (8, 23, x, y, z, 35, 37)
 Qubit budget: 6 u bilo kom trenutku
 
 
