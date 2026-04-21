@@ -119,7 +119,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -482,7 +482,7 @@ BEST hparam: K_ACTIVE= 14 | t_hop= 1.0 | u_int= 0.5 | P(N_PART-sektor)= 1.0 | co
   eig_min = -19.149578  eig_max = -3.072685  eig_occupied_sum (N najniže) = -42.008925
 --- N-particle verifikacija: P(Σ n_p = 7) = 1.0000000000  (treba ≈ 1.0) ---
 --- glavna predikcija (JW Slater determinant ground state) ---
-predikcija NEXT: (8, 10, 23, 26, 32, 34, 37)
+predikcija NEXT: (8, 10, x, y, z, 34, 37)
 """
 
 
